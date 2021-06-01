@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SetCard /> should render correctly 1`] = `
+.c9 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.22);
+  border-radius: 8px;
+}
+
+.c1 {
+  min-height: 172px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: linear-gradient(109deg,#FFFFFF 0%,#A3DEFD 101.14%);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+  padding: 20px;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.c1 img {
+  max-width: 100%;
+}
+
+.c2 {
+  height: 100px;
+  width: 70%;
+}
+
+.c2 > div {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+
+.c4 {
+  max-width: calc(100% - 2.5rem);
+  padding: 24px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #394452;
+  margin-bottom: 4px;
+}
+
+.c6 {
+  font-size: 2.0rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: #030517;
+  margin-bottom: 4px;
+}
+
+.c7 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #394452;
+}
+
+.c8 {
+  color: #34C1FF;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+.c8 svg {
+  width: 2.5rem;
+}
+
+<article
+  class="c0"
+>
+  <a
+    class="c1"
+    href="/sets/base-set"
+  >
+    <div
+      class="c2"
+    >
+      <div>
+        <div
+          style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+        >
+          <img
+            alt="Base Set"
+            decoding="async"
+            role="image"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: contain;"
+          />
+        </div>
+      </div>
+    </div>
+  </a>
+  <div
+    class="c3"
+  >
+    <a
+      class="c4"
+      href="/sets/base-set"
+    >
+      <h4
+        class="c5"
+      >
+        2003
+      </h4>
+      <h3
+        class="c6"
+      >
+        Base Set
+      </h3>
+      <h4
+        class="c7"
+      >
+        120
+         cards in set
+      </h4>
+    </a>
+  </div>
+  <div
+    class="c8"
+    role="button"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Add to Favorites"
+      class="c9"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+      />
+    </svg>
+  </div>
+</article>
+`
